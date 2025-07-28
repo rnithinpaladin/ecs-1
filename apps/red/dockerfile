@@ -1,0 +1,3 @@
+FROM nginx:alpine
+RUN mkdir -p /usr/share/nginx/html/red && \
+    echo "<h1 style='color:red'>Red App</h1>" > /usr/share/nginx/html/red/index.html
